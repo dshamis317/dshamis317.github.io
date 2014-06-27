@@ -13,10 +13,13 @@ div.home {
   top:0;
   bottom:0;
   z-index:-1;
-  /*position:fixed;*/
 }
 
-h1 {
+h1, h3 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+#name-div h1 {
   height: 75px;
   background-color: black;
   color: white;
@@ -24,6 +27,8 @@ h1 {
   font-family: 'Fjalla One', sans-serif;
   font-size: 42px;
   padding-left: 25px;
+  position: fixed;
+  width: 100%
 }
 
 #byline {
@@ -31,11 +36,13 @@ h1 {
   background-color: black;
   color: white;
   font-family: 'Fjalla One', sans-serif;
-  margin-top: -20px;
+  margin-top: 47px;
   padding-left: 25px;
+  border-bottom: 2px solid white;
+  position: fixed;
 }
 
-h3 {
+.links-toolbar h3 {
   height: 45px;
   background-color: black;
   color: white;
@@ -59,11 +66,13 @@ h3 {
 
 #name {
   /*width: 460px;*/
-  margin-top: -7px;
+  margin-top: -8px;
+  border-bottom: 2px solid white;
 }
 
 .name-div {
   /*width: 460px;*/
+  position: fixed;
 }
 
 .about-div {
@@ -100,4 +109,46 @@ a {
   background-color: yellow;
   margin-left: -10px;
   margin-right: -10px;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+  margin-bottom: -20px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 28px;
+}
+
+.about-section h2 {
+  text-align: center;
+}
+
+.text-container {
+  width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.text-container p {
+  text-align: justify;
+}
+
+.text-container p:first-child {
+  margin-top: 30px;
+  float: right;
+}
+
+.text-container h3:first-child {
+  margin-top: 30px;
+}
+
+#dima-pic {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  border: 4px solid white;
+  text-align: left;
+  margin: 20px;
+  float: left;
 }
