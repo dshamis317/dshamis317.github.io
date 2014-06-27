@@ -5,29 +5,89 @@
   <title>Dmitry Shamis</title>
   <link rel="stylesheet" href="stylesheets/styles.css">
   <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+  <!-- LIBRARIES -->
+  <script src="javascripts/libraries/jquery.js"></script>
+  <script src="javascripts/libraries/underscore.js"></script>
+  <script src="javascripts/libraries/backbone.js"></script>
+
+  <!-- ROUTER -->
+  <script src="javascripts/backbone/router.js"></script>
+
+  <!-- APP -->
+  <script src="javascripts/app.js"></script>
+
 </head>
 <body>
-  <div id="name-div">
-    <h1 id="name">DMITRY SHAMIS</h1>
-    <p id="byline">Full Stack Web Developer with focus in Ruby-on-Rails and Javascript</p>
+  <!-- LANDING PAGE -->
+  <div class="home">
+    <div id="name-div">
+      <h1 id="name">DMITRY SHAMIS</h1>
+      <p id="byline">Full Stack Web Developer with focus in Ruby-on-Rails and Javascript</p>
+    </div>
+    <ul class="links-toolbar">
+      <li>
+        <div class="about-div">
+          <h3 id="about">ABOUT</h3>
+        </div>
+      </li>
+      <li>
+        <div class="portfolio-div">
+          <h3 id="portfolio">PORTFOLIO</h3>
+        </div>
+      </li>
+      <li>
+        <div class="contact-div">
+          <h3 id="contact">CONTACT</h3>
+        </div>
+      </li>
+    </ul>
   </div>
-  <ul class="links-toolbar">
-    <li>
-      <div class="about-div">
-        <h3 id="about">ABOUT</h3>
-      </div>
-    </li>
-    <li>
-      <div class="portfolio-div">
-        <h3 id="portfolio">PORTFOLIO</h3>
-      </div>
-    </li>
-    <li>
-      <div class="contact-div">
-        <h3 id="contact">CONTACT</h3>
-      </div>
-    </li>
-  </ul>
-  <div class="information"></div>
+
+  <!-- ABOUT ME SECTION -->
+  <div class="about-section">
+    <h2>About Me</h2>
+    <p>Lorem ipsem Lorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsem</p>
+    <p>Lorem ipsem Lorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsem</p>
+    <p>Lorem ipsem Lorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsem</p>
+
+    <h2>Skill Set</h2>
+    <p>Lorem ipsem Lorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsem</p>
+
+    <h2>Resume</h2>
+    <p>Lorem ipsem Lorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsem</p>
+    <p>Lorem ipsem Lorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsem</p>
+  </div>
+
+  <!-- PORTFOLIO SECTION -->
+  <div class="portfolio-section">
+    <h2>About Me</h2>
+    <p>Lorem ipsem Lorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsem</p>
+    <p>Lorem ipsem Lorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsem</p>
+    <p>Lorem ipsem Lorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsem</p>
+
+    <h2>Skill Set</h2>
+    <p>Lorem ipsem Lorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsem</p>
+
+    <h2>Resume</h2>
+    <p>Lorem ipsem Lorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsem</p>
+    <p>Lorem ipsem Lorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsem</p>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <div class="contact-section">
+    <h2>About Me</h2>
+    <p>Lorem ipsem Lorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsem</p>
+    <p>Lorem ipsem Lorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsem</p>
+    <p>Lorem ipsem Lorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsem</p>
+
+    <h2>Skill Set</h2>
+    <p>Lorem ipsem Lorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsem</p>
+
+    <h2>Resume</h2>
+    <p>Lorem ipsem Lorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsem</p>
+    <p>Lorem ipsem Lorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsemLorem ipsem</p>
+  </div>
 </body>
 </html>
+
+

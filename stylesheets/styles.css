@@ -1,6 +1,19 @@
-body {
-  background: url(../images/cp.jpg);
+div.home {
+  background-image: url(../images/cp.jpg);
   background-size: cover;
+  height: 610px;
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-left: -10px;
+  margin-right: -10px;
+  background-position: 50%;
+  background-color: #fff;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  z-index:-1;
+  /*position:fixed;*/
 }
 
 h1 {
@@ -41,6 +54,7 @@ h3 {
 .links-toolbar li {
   display: inline-block;
   text-align: center;
+  cursor: pointer;
 }
 
 #name {
@@ -64,13 +78,26 @@ h3 {
   width: 162px;
 }
 
-.information {
-  display: none;
-  height: 500px;
-  width: 700px;
-  background-color: white;
-  opacity: 0.3;
-  position: fixed;
-  top: 28px;
-  right: 25px;
+a {
+  text-decoration: none;
+}
+.about-section {
+  margin-top: -20px;
+  background-color: green;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.portfolio-section {
+  margin-top: -20px;
+  background-color: orange;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.contact-section {
+  margin-top: -20px;
+  background-color: yellow;
+  margin-left: -10px;
+  margin-right: -10px;
 }
