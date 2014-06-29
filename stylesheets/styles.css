@@ -155,6 +155,10 @@ h2 {
   float: right;
 }
 
+.text-container h3 {
+  font-size: 24px;
+}
+
 .text-container h3:first-child {
   margin-top: 30px;
 }
@@ -173,12 +177,28 @@ i {
   margin: 10px;
 }
 
-#email, #linkedin, #github, #twitter {
+#email, #linkedin, #github, #twitter, #spotify {
   color: black;
 }
 
-#email:hover, #linkedin:hover, #github:hover, #twitter:hover {
+#email:hover {
   opacity: .5;
+}
+
+#linkedin:hover {
+  color: #0976b4;
+}
+
+#github:hover {
+  color: #333;
+}
+
+#twitter:hover {
+  color: #55acee;
+}
+
+#spotify:hover {
+  color: #7ab800;
 }
 
 #tech-stack {
@@ -203,4 +223,28 @@ i {
 
 iframe {
   margin-bottom: 30px;
+}
+
+#gamer-match {
+  text-align: left;
+}
+
+#gamer-match h3 {
+  margin-top: 0;
+}
+
+#gamer-match-img {
+  width: 250px;
+  height: auto;
+  border: 1px solid black;
+}
+
+#valence {
+  text-align: right;
+}
+
+#valence-img {
+  width: 250px;
+  height: auto;
+  border: 1px solid black;
 }
