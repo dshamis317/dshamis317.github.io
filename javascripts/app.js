@@ -4,20 +4,20 @@ $(function () {
 
   $('#about').click(function() {
       $('html, body').animate({
-        scrollTop: $(".about-section").offset().top
-      }, 100);
+        scrollTop: $(".about-section").offset().top - 75 + 'px'
+      }, 500);
     })
 
   $('#portfolio').click(function() {
       $('html, body').animate({
-        scrollTop: $(".portfolio-section").offset().top
-      }, 100);
+        scrollTop: $(".portfolio-section").offset().top - 75 + 'px'
+      }, 500);
     })
 
   $('#contact').click(function() {
       $('html, body').animate({
-        scrollTop: $(".contact-section").offset().top
-      }, 100);
+        scrollTop: $(".contact-section").offset().top - 75 + 'px'
+      }, 500);
     })
 })
 
