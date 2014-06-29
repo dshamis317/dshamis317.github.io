@@ -25,5 +25,9 @@ $(function () {
         scrollTop: $(".contact-section").offset().top - 75 + 'px'
       }, 500);
     })
+
+  $('#resume-open').click(function() {
+    $('.resume-embed').slideToggle();
+  })
 })
 

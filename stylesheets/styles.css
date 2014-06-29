@@ -97,6 +97,7 @@ a {
   background-color: green;
   margin-left: -10px;
   margin-right: -10px;
+  padding-bottom: 20px;
 }
 
 .portfolio-section {
@@ -145,6 +146,8 @@ h2 {
 
 .text-container p {
   text-align: justify;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
 }
 
 .text-container p:first-child {
@@ -182,4 +185,22 @@ i {
   width: 650px;
   margin: 0 auto;
   text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#tech-stack th {
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+#resume-open {
+  cursor: pointer;
+}
+
+#resume-open:hover {
+  color: blue;
+}
+
+iframe {
+  margin-bottom: 30px;
 }
