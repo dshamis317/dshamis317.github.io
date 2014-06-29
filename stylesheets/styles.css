@@ -109,7 +109,7 @@ a {
 
 .contact-section {
   margin-top: -20px;
-  background-color: #DDDDDD;
+  background-color: #45C2C6;
   margin-left: -10px;
   margin-right: -10px;
 }
@@ -226,8 +226,10 @@ iframe {
 }
 
 #gamer-match {
+  width: 100%;
   text-align: left;
   display: block;
+  float: left;
 }
 
 #gamer-match h3 {
@@ -238,14 +240,31 @@ iframe {
   width: 250px;
   height: auto;
   border: 1px solid black;
+  float: left;
+}
+
+#gamer-match-text {
+  width: 525px;
+  float: left;
+  margin-left: 20px;
+  margin-top: -30px;
 }
 
 #valence {
+  width: 100%;
   text-align: right;
+  /*float: right;*/
 }
 
 #valence-img {
   width: 250px;
   height: auto;
   border: 1px solid black;
+/*  float: right;*/
+}
+
+#valence-text {
+  width: 525px;
+  /*float: right;*/
+  margin-right: 30px;
 }
