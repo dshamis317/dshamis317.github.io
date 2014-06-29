@@ -1,3 +1,7 @@
+body {
+  display: none;
+}
+
 div.home {
   background-image: url(../images/cp.jpg);
   background-size: cover;
@@ -44,7 +48,7 @@ h1, h3 {
 
 .links-toolbar h3 {
   height: 45px;
-  background-color: black;
+  background-color: transparent;
   color: white;
   margin-bottom: -20px;
   font-family: 'Fjalla One', sans-serif;

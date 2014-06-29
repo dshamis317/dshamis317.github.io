@@ -1,7 +1,8 @@
-$(function () {
-  // var router = new Router();
-  // Backbone.history.start();
+function fadeInSite() {
+  $('body').fadeIn(1500)
+}
 
+function scrollNavigation() {
   $('#name').click(function() {
       $('html, body').animate({
         scrollTop: $(".home").offset().top
@@ -28,6 +29,15 @@ $(function () {
 
   $('#resume-open').click(function() {
     $('.resume-embed').slideToggle();
+    // $('.resume-embed').toggle('fold', 1000);
   })
+}
+
+$(function () {
+  // var router = new Router();
+  // Backbone.history.start();
+  fadeInSite();
+  scrollNavigation();
+
 })
 
