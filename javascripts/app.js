@@ -2,6 +2,12 @@ $(function () {
   // var router = new Router();
   // Backbone.history.start();
 
+  $('#name').click(function() {
+      $('html, body').animate({
+        scrollTop: $(".home").offset().top
+      }, 500);
+    })
+
   $('#about').click(function() {
       $('html, body').animate({
         scrollTop: $(".about-section").offset().top - 75 + 'px'
