@@ -94,7 +94,7 @@ a {
 
 .about-section {
   margin-top: -20px;
-  background-color: green;
+  background-color: #45C2C6;
   margin-left: -10px;
   margin-right: -10px;
   padding-bottom: 20px;
@@ -102,14 +102,14 @@ a {
 
 .portfolio-section {
   margin-top: -20px;
-  background-color: orange;
+  background-color: #BBBBBB;
   margin-left: -10px;
   margin-right: -10px;
 }
 
 .contact-section {
   margin-top: -20px;
-  background-color: yellow;
+  background-color: #DDDDDD;
   margin-left: -10px;
   margin-right: -10px;
 }
@@ -227,6 +227,7 @@ iframe {
 
 #gamer-match {
   text-align: left;
+  display: block;
 }
 
 #gamer-match h3 {
