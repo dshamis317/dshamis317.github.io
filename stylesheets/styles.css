@@ -229,6 +229,27 @@ iframe {
   margin-bottom: 30px;
 }
 
+.portfolio-text-container {
+  width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.portfolio-text-container h3 {
+  font-size: 24px;
+}
+
+.portfolio-text-container h3:first-child {
+  margin-top: 30px;
+}
+
+.portfolio-text-container p {
+  text-align: justify;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+}
+
 #gamer-match {
   width: 100%;
   text-align: left;
@@ -256,21 +277,23 @@ iframe {
 
 #valence {
   width: 100%;
-  text-align: right;
-  /*float: right;*/
+  text-align: left;
+  display: block;
+  float: left;
 }
 
 #valence-img {
   width: 250px;
   height: auto;
   border: 1px solid black;
-/*  float: right;*/
+  float: left;
 }
 
 #valence-text {
   width: 525px;
-  /*float: right;*/
-  margin-right: 30px;
+  float: left;
+  margin-left: 20px;
+  margin-top: -30px;
 }
 
 /*#grumblr {
