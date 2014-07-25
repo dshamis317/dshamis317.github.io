@@ -250,15 +250,36 @@ iframe {
   font-size: 18px;
 }
 
-#gamer-match {
+#lean {
   width: 100%;
   text-align: left;
   display: block;
   float: left;
 }
 
-#gamer-match h3 {
+#lean h3 {
   margin-top: 0;
+}
+
+#lean-img {
+  width: 250px;
+  height: auto;
+  border: 1px solid black;
+  float: left;
+}
+
+#lean-text {
+  width: 525px;
+  float: left;
+  margin-left: 20px;
+  margin-top: -15px;
+}
+
+#gamer-match {
+  width: 100%;
+  text-align: left;
+  display: block;
+  float: left;
 }
 
 #gamer-match-img {
@@ -272,7 +293,7 @@ iframe {
   width: 525px;
   float: left;
   margin-left: 20px;
-  margin-top: -30px;
+  margin-top: -20px;
 }
 
 #valence {
@@ -293,7 +314,7 @@ iframe {
   width: 525px;
   float: left;
   margin-left: 20px;
-  margin-top: -30px;
+  margin-top: -20px;
 }
 
 /*#grumblr {
