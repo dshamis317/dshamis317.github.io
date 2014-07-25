@@ -1,5 +1,5 @@
 function fadeInSite() {
-  $('body').fadeIn(1500)
+  $('body').hide().fadeIn(1500)
 }
 
 function scrollNavigation() {
