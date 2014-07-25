@@ -223,6 +223,7 @@ i {
 }
 
 #resume-open {
+  text-decoration: underline;
   cursor: pointer;
 }
 
