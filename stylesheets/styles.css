@@ -136,6 +136,11 @@ h2 {
   border-bottom: 2px solid white;
 }
 
+.portfolio-section .subtitle {
+  text-align: center;
+  font-size: 24px;
+}
+
 .contact-section h2 {
   text-align: center;
   border-bottom: 2px solid white;
@@ -234,10 +239,7 @@ iframe {
   text-align: center;
   margin: 0 auto;
   display: block;
-}
-
-.portfolio-text-container h3 {
-  font-size: 24px;
+  list-style: none;
 }
 
 .portfolio-text-container h3:first-child {
@@ -250,94 +252,31 @@ iframe {
   font-size: 18px;
 }
 
-#lean {
-  width: 100%;
+.project {
+  min-height: 180px;
+}
+
+.project .name {
   text-align: left;
-  display: block;
-  float: left;
 }
 
-#lean h3 {
-  margin-top: 0;
-}
-
-#lean-img {
+.project .screenshot {
   width: 250px;
   height: auto;
   border: 1px solid black;
+}
+
+.project a {
   float: left;
 }
 
-#lean-text {
+.project .description {
   width: 525px;
-  float: left;
-  margin-left: 20px;
-  margin-top: -15px;
-}
-
-#gamer-match {
-  width: 100%;
-  text-align: left;
-  display: block;
-  float: left;
-}
-
-#gamer-match-img {
-  width: 250px;
+  margin-left: 270px;
   height: auto;
-  border: 1px solid black;
-  float: left;
 }
 
-#gamer-match-text {
-  width: 525px;
-  float: left;
-  margin-left: 20px;
-  margin-top: -20px;
+.project .source-code a {
+  float: right;
+  text-decoration: underline;
 }
-
-#valence {
-  width: 100%;
-  text-align: left;
-  display: block;
-  float: left;
-}
-
-#valence-img {
-  width: 250px;
-  height: auto;
-  border: 1px solid black;
-  float: left;
-}
-
-#valence-text {
-  width: 525px;
-  float: left;
-  margin-left: 20px;
-  margin-top: -20px;
-}
-
-/*#grumblr {
-  width: 100%;
-  text-align: left;
-  display: block;
-  float: left;
-}
-
-#grumblr h3 {
-  margin-top: 0;
-}
-
-#grumblr-img {
-  width: 250px;
-  height: auto;
-  border: 1px solid black;
-  float: left;
-}
-
-#grumblr-text {
-  width: 525px;
-  float: left;
-  margin-left: 20px;
-  margin-top: -30px;
-}*/
